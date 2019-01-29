@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user is login into application",
+        "description": "",
+        "id": "scenarios-related-to-login-functionality;verify-user-is-login-into-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33418373853,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches site",
+            "match": {
+              "location": "loginstepDefinition.user_launches_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19391224199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he enters uesrname \"mngr174320\" and password \"Anysema\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr174320",
+                  "offset": 20
+                },
+                {
+                  "val": "Anysema",
+                  "offset": 46
+                }
+              ],
+              "location": "loginstepDefinition.he_enters_uesrname_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4936567467,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he should be navigated to homepage",
+            "match": {
+              "location": "loginstepDefinition.he_should_be_navigated_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify user is login into application",
+        "description": "",
+        "id": "scenarios-related-to-login-functionality;verify-user-is-login-into-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12511066186,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user launches site",
+            "match": {
+              "location": "loginstepDefinition.user_launches_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7774789256,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "he enters uesrname \"mngr174320\" and password \"Anysema\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr174320",
+                  "offset": 20
+                },
+                {
+                  "val": "Anysema",
+                  "offset": 46
+                }
+              ],
+              "location": "loginstepDefinition.he_enters_uesrname_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2752004407,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "he should be navigated to homepage",
+            "match": {
+              "location": "loginstepDefinition.he_should_be_navigated_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Scenarios related to login functionality",
+    "description": "",
+    "id": "scenarios-related-to-login-functionality",
+    "keyword": "Feature",
+    "uri": "D:/Workspace/BDDDemo1/src/main/java/feature/login.feature"
+  }
+]

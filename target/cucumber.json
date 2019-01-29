@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user is login into application",
+        "description": "",
+        "id": "scenarios-related-to-login-on-application;verify-user-is-login-into-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19080304631,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches site",
+            "match": {
+              "location": "loginstepDefinition.user_launches_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20713687,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#When he enters uesrname and password"
+              }
+            ],
+            "line": 6,
+            "name": "he should be navigated to homepage",
+            "match": {
+              "location": "loginstepDefinition.he_should_be_navigated_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Scenarios related to login on application",
+    "description": "",
+    "id": "scenarios-related-to-login-on-application",
+    "keyword": "Feature",
+    "uri": "D:/Workspace/BDDDemo1/src/main/java/feature/login.feature"
+  }
+]
